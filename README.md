@@ -1,24 +1,14 @@
-# router_desafio-vue-router
+## Desafío Vue Router
 
-## Project setup
-```
-npm install
-```
+El código aplica:
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+1. Integrar <router-link>.
 
-### Compiles and minifies for production
-```
-npm run build
-```
+2. Generar las rutas  que cargarán los componentes a través de carga controlada o
+lazy load. 
 
-### Lints and fixes files
-```
-npm run lint
-```
+3. Generar las vistas en su respectivo directorio para que las rutas definidas tengan
+funcionalidad y muestren información. 
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+4. Enlace de redirección al inicio "/" del sitio en cada view.
+
