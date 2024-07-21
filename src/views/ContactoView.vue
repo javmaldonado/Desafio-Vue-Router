@@ -1,17 +1,18 @@
 <template>
-  <div class="home-view">
-    <h1 class="my-5 pt-5 sec-1">Bienvenidos</h1>
+  <div class="contacto">
+    <h1 class="my-5 pt-5 sec-1">Contáctanos</h1>
   </div>
+  <router-link to='/'>Volver al inicio</router-link>
 </template>
 
 <script>
 export default {
-  name: 'HomeView',
-}
+  name: 'ContactoView',
+} 
 </script>
 
 <style>
-.home-view {
+.contacto {
   min-height: calc(100vh - 60px);
   display: flex;
   flex-direction: column;

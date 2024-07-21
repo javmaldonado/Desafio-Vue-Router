@@ -1,10 +1,24 @@
 <template>
-  <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </nav>
-  <router-view/>
+  <NavbarComponent />
+  <router-view />
+  <MediosPago />
+  <FooterComponent />
 </template>
+
+<script>
+import FooterComponent from './components/FooterComponent.vue';
+import MediosPago from './components/MediosPago.vue';
+import NavbarComponent from './components/NavbarComponent.vue';
+
+export default {
+  name: "App",
+  components: {
+    NavbarComponent,
+    MediosPago,
+    FooterComponent
+  }
+}
+</script>
 
 <style>
 #app {
@@ -13,18 +27,5 @@
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-}
-
-nav {
-  padding: 30px;
-}
-
-nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
-
-nav a.router-link-exact-active {
-  color: #42b983;
 }
 </style>
